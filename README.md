@@ -1,4 +1,290 @@
 
+index1.html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="shortcut icon" type="image/png" href="C:\Users\dell\Desktop\Krishna\20220530041110_IMG_3442.jpg">
+        <link rel="stylesheet" href='./index.css'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+        <script src="./index.js"></script>
+        
+    </head>
+    <body>
+        
+        <header class="header">
+            
+            <a href="#" class="logo">Portfolio</a>
+            <nav class="navbar" id="myLinks">
+                <a href="#Home" style="--i:1" class="active" >Home</a>
+                <a href="#About" style="--i:2">About</a>
+                <a href="#Skills" style="--i:3">Skills</a>
+                <!--<a href="#Projects" style="--i:4">Projects</a>-->
+                <a href="#Contact" style="--i:5">Contact</a>
+            </nav>
+        </header>
+
+
+        <section class="home" id="Home">
+            <div class="home-content">
+                
+                <h3>Hello, It's Me</h3>
+                <h1 id="name">Rajesh</h1>
+                <h4 style="--i:6">
+                    SAP Developer<span class="text"></span></h4>
+                
+                <div class="img">
+                    <img src="./rajesh.jpg" alt="Rajesh" class="responsive">
+                </div>
+
+                <div class="home-sci">
+                    <a href="https://www.linkedin.com/in/rajesh-thota-8b043a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"style="--i:7" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/rajeshthota310"style="--i:10" target="_blank"><i class='bx bxl-github'></i></a>
+                </div>
+                <!-- <a href="https://drive.google.com/file/d/18UQSFzY9kdABAWTxDMgy_uBmery6-2q_/view?usp=sharing" style="--i:11" class="btn-box" target="_blank">Download Resume</a> -->
+            </div>
+        </section>
+
+
+        <section>
+            <div class="about" id="About">
+                <div class="about-img">
+                    <img src="./rajesh1.jpg" alt="chandu" class="abt-res">
+                </div>
+                <div class="about-text">
+                    <h2>About <span>Me</span></h2>
+                    <p>Thota Rajesh's professional experience focuses on comprehensive supply chain and logistics management. His roles primarily involve dispatch planning and coordination for PAN India and export operations, ensuring on-time delivery and adherence to quality and safety standards. He is proficient in inventory and warehouse management, including analyzing product aging, maintaining inventory accuracy through reconciliation, and optimizing warehouse space. Thota also excels in process improvement, utilizing tools like RCA and IL6S for effective warehousing and continuous improvement initiatives. He is skilled in SAP operations, including creating process orders, invoicing, and shipment management, and has experience coordinating with various internal and external stakeholders, such as transportation vendors and production teams.<br>
+                        <br>
+                        <a href="https://drive.google.com/file/d/12DrLujVnidfNwtPpdp04hdwA-uXwOOcu/view?usp=drive_link" style="--i:11" class="abtbtn-box" target="_blank">Download Resume</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="Skills">
+            <h1 class="subtitle">My <span>Skills</span></h1>
+            <div class="sec">
+                <div class="container1">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="Technical-bars">
+
+                        <div class="bar"><i class='bx bxl-html5' style="color: #c9332e;"></i>
+                            <div class="info">
+                                <span>SAP <span class="addhtml"></span></span>
+                            </div>
+                            <div class="progress-line html">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><i class='bx bxl-css3' style="color: #147bbc;"></i>
+                            <div class="info">
+                                <span>Power BI<span class="addcss"></span></span>
+                            </div>
+                            <div class="progress-line css">
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="bar"><i class='bx bxl-java' style="color: #b0bc1e;"></i>
+                            <div class="info">
+                                <span>POS <span class="addpy"></span></span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                        </div>
+                        
+                        <!--<div class="bar"><i class='fa-solid fa-database' style="color: #b0bc1e;"></i>
+                            <div class="info">
+                                <span>SQL<span class="addpy"></span></span>
+                            </div>
+                            <div class="progress-line python">
+                                <span></span>
+                            </div>
+                        </div> -->
+                        
+
+                       <!-- <div class="bar"><i class='fa-brands fa-js' style="color: #c95d2e;"></i>
+                            <div class="info">
+                                <span>JavaScript <span class="addjava"></span></span>
+                            </div>
+                            <div class="progress-line java">
+                                <span></span>
+                            </div>
+                        </div> -->
+                        
+                        <!-- <div class="bar"><i class='bx bxl-spring-boot'style="color: green;"></i>
+                            <div class="info">
+                                <span>SpringBoot<span class="addc"></span></span>
+                            </div>
+                            <div class="progress-line cpls">
+                                <span></span>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-bars">
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-1" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Problem Solving</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-2" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Creativity</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-3" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">70%</div>
+                            <div class="text">Communication</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">CriticalThinking &LogicalThinking</div>
+                        </div>
+
+                        <div class="radial-bar">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="80" r="80"></circle>
+                                <circle class="path path-4" cx="100" cy="80" r="80"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="text">Teamwork</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--<section id="Projects">
+            <div id="portfolio" class="services">
+                <div class="main-text" id="serv">
+                    <h2>My <span>Projects</span></h2>
+                    <div class="serv-container">
+                        <div class="row">
+                            <img src="https://www.rishabhsoft.com/wp-content/uploads/2019/11/Ecommerce-Website-Design-Solution.png">
+                            <div class="layer">
+                                <h5>Project</h5>
+                                <p>E-commerce Application</p>
+
+                                <a href="#"><i class='bx bxs-face-mask' style="color: aliceblue;"></i></a>
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <img src="https://i0.wp.com/thecleverprogrammer.com/wp-content/uploads/2020/10/face-detetcion.png?fit=1024%2C831&ssl=1">
+                            <div class="layer">
+                                <h5>Project</h5>
+                                <p>Age and Gender Prediction using Deep Learning</p>
+
+                                <a href="#"><i class='bx bxs-low-vision' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+
+                    <div class="row">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuV8GBSycrg2YxlKrhoFE4j0pTd6v4u5-7ew&s">
+                            <div class="layer">
+                                <h5>Project</h5>
+                                <p>Bus Application</p>
+
+                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <img src="https://paytmblogcdn.paytm.com/wp-content/uploads/2021/10/1_Netbanking_Top-things-to-know-about-mobile-banking-applications-800x500.jpg">
+                            <div class="layer">
+                                <h5>Mini Project</h5>
+                                <p>Bank Application</p>
+
+                                <a href="#"><i class='bx bx-desktop' style="color: aliceblue;"></i></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="Services">
+            <div class="project">
+                <div class="container">
+                    <h1 class="sub-title">My <span>Services</span></h1>
+                    <div class="prj-list">
+                        <div>
+                            <i class='bx bx-code' style="color: #00eeff;"></i>
+                            <h2>SAP Development</h2>
+                            <p>designs, builds, and implements solutions using SAP software to optimize business processes and systems</p>
+                            
+                        </div>
+                        
+                        <div>
+                            <i class='bx bxl-android' style="color: #00eeff;"></i>
+                            <h2>Point Of Sale</h2>
+                            <p>streamlining checkout, managing inventory, and providing valuable sales data for informed decision-making</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contacts" id="Contact">
+            <div class="contact-text">
+                <h2>Contact <span>Me</span></h2>
+                <h4>Let's Work Together</h4>
+                <div class="contact-list">
+                    <li><i class='bx bxs-send'></i>rajeshthota525@gmail.com</li>
+                    <li><i class="bx bxs-phone-call" ></i>7893126508</li>
+                </div>
+                <div class="contact-icons">
+                    <a href="https://github.com/rajeshthota310" target="_blank"><i class='bx bxl-github'></i></a>
+                    <!-- <a href="https://www.youtube.com/@Unlucky_Coder21"><i class='bx bxl-youtube'></i></a> -->
+                    <a href="https://www.instagram.com/____rajesh_______________?igsh=MWo5Z2cwOWNmdXNlag==" target="_blank"><i class="bx bxl-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/rajesh-thota-8b043a30b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        <div class="last-text">
+            <p>Developed by Rajesh <i class='bx bx-copyright' style="color: white;"></i> 2025</p>
+        </div>
+        <a href="#Home" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+        <script src="./files/script.js"></script>
+    </body>
+</html>
+
 index1.css
 * {
     margin: 0;
